@@ -18,30 +18,29 @@ Web Interface: A simple Flask UI that allows users to upload images and receive 
 
 This setup ensures reproducibility, automation, environment consistency, and scalable deployment—all essential pillars of modern MLOps.
 
-📁 Repository Structure (Detailed & Clear)
-mlops-major-project/
+MLOps_Major_Assignment_G24AI2087/  
 │
-├── README.md                     # Project documentation
-├── .gitignore                    # Ignored files
+├── README.md                     
+├── .gitignore                   
 │
-├── train.py                      # Model training script
-├── test.py                       # Model testing/accuracy script
-├── savedmodel.pth                # Trained model (optional: may be excluded)
+├── train.py                      
+├── test.py                      
+├── savedmodel.pth               
 │
-├── requirements.txt              # Python dependencies
+├── requirements.txt             
 │
-├── app.py                        # Flask inference API
+├── app.py                        
 │
-├── templates/                    # HTML pages for Flask UI
-│   ├── index.html                # Image upload page
-│   └── result.html               # Prediction result page
+├── templates/                   
+│   ├── index.html               
+│   └── result.html             
 │
 ├── static/
-│   └── uploads/                  # Uploaded image storage
+│   └── uploads/                 
 │
-├── Dockerfile                    # Docker container build instructions
+├── Dockerfile                    
 │
-├── k8s-deployment.yaml           # Kubernetes deployment + service
+├── k8s-deployment.yaml           
 │
 └── .github/
     └── workflows/
