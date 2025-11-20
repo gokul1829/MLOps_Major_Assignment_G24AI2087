@@ -1,0 +1,9 @@
+<!doctype html>
+<html>
+  <body>
+    <h1>Prediction result</h1>
+    <p>Predicted class: {{ pred }}</p>
+    <img src="{{ url_for('static', filename='uploads/' + filename) }}" alt="uploaded"/>
+    <a href="/">Back</a>
+  </body>
+</html>
